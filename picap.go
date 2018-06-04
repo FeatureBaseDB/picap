@@ -14,6 +14,7 @@ import (
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
 	"github.com/pilosa/pdk"
+	"github.com/pilosa/pdk/leveldb"
 	"github.com/pkg/errors"
 )
 
@@ -70,7 +71,7 @@ func (m *Main) Run() error {
 		log.Printf("storing mapping data in %v", m.MappingDir)
 	}
 	if m.Translator == "level" {
-		lt, err := pdk.NewLevelTranslator(m.MappingDir)
+		lt, err := leveldb.NewTranslator(m.MappingDir)
 		if err != nil {
 			return errors.Wrap(err, "getting level translator")
 		}
