@@ -2,129 +2,142 @@
 
 
 [[projects]]
+  digest = "1:998cf998358a303ac2430c386ba3fd3398477d6013153d3c6e11432765cc9ae6"
   name = "github.com/cespare/xxhash"
   packages = ["."]
-  revision = "5c37fe3735342a2e0d01c87a907579987c8936cc"
-  version = "v1.0.0"
+  pruneopts = "UT"
+  revision = "3b82fb7d186719faeedd0c2864f868c74fbf79a1"
+  version = "v2.0.0"
 
 [[projects]]
+  digest = "1:48092bf6632f55839850666c33469f546f6d45fdbd59a66759ec12e84d853dc2"
   name = "github.com/gogo/protobuf"
   packages = ["proto"]
-  revision = "1adfc126b41513cc696b209667c8656ea7aac67c"
-  version = "v1.0.0"
+  pruneopts = "UT"
+  revision = "ba06b47c162d49f2af050fb4c75bcbc86a159d5c"
+  version = "v1.2.1"
 
 [[projects]]
+  digest = "1:97df918963298c287643883209a2c3f642e6593379f97ab400c2a2e219ab647d"
   name = "github.com/golang/protobuf"
   packages = ["proto"]
-  revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
-  version = "v1.1.0"
+  pruneopts = "UT"
+  revision = "aa810b61a9c79d51363740d207bb46cf8e620ed5"
+  version = "v1.2.0"
 
 [[projects]]
-  branch = "master"
+  digest = "1:e4f5819333ac698d294fe04dbf640f84719658d5c7ce195b10060cc37292ce79"
   name = "github.com/golang/snappy"
   packages = ["."]
-  revision = "2e65f85255dbc3072edf28d6b5b8efc472979f5a"
+  pruneopts = "UT"
+  revision = "2a8bb927dd31d8daada140a5d09578521ce5c36a"
+  version = "v0.0.1"
 
 [[projects]]
+  digest = "1:ee5c1cf480b412a3211800d975e624b5eb23c9bec5b4b303a3ab8434f881b706"
   name = "github.com/google/gopacket"
   packages = [
     ".",
     "layers",
-    "pcap"
+    "pcap",
   ]
-  revision = "11c65f1ca9081dfea43b4f9643f5c155583b73ba"
-  version = "v1.1.14"
+  pruneopts = "UT"
+  revision = "7f3fc6cbbb499248dca53da7fe3ed6c25a78d22f"
+  version = "v1.1.16"
 
 [[projects]]
-  name = "github.com/gorilla/context"
-  packages = ["."]
-  revision = "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
-  version = "v1.1.1"
-
-[[projects]]
-  name = "github.com/gorilla/handlers"
-  packages = ["."]
-  revision = "90663712d74cb411cbef281bc1e08c19d1a76145"
-  version = "v1.3.0"
-
-[[projects]]
-  name = "github.com/gorilla/mux"
-  packages = ["."]
-  revision = "e3702bed27f0d39777b0b37b664b6280e8ef8fbf"
-  version = "v1.6.2"
-
-[[projects]]
+  digest = "1:870d441fe217b8e689d7949fef6e43efbc787e50f200cb1e70dbca9204a1d6be"
   name = "github.com/inconshreveable/mousetrap"
   packages = ["."]
+  pruneopts = "UT"
   revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
   version = "v1.0"
 
 [[projects]]
+  digest = "1:871ba90172fc6bbc76451ba6c77bcb083a71214432d67eec40207848ca436b3b"
   name = "github.com/jaffee/commandeer"
   packages = [
     ".",
-    "cobrafy"
+    "cobrafy",
   ]
+  pruneopts = "UT"
   revision = "d0012ff26169b05dca5c14910d9415ae389efb8e"
   version = "v0.1.0"
 
 [[projects]]
-  branch = "master"
+  digest = "1:c7fb530facbac057a5d8ecde041efd8ddde427dbf11f890c4c2b7748b3971265"
   name = "github.com/pilosa/go-pilosa"
   packages = [
     ".",
-    "gopilosa_pbuf"
+    "gopilosa_pbuf",
   ]
-  revision = "a7ac58f0673f523c06e4771082cef66f1cb6ba40"
+  pruneopts = "UT"
+  revision = "5dc3944939371328f7d96be993f6e252fe973f18"
+  version = "v1.2.0"
 
 [[projects]]
   branch = "master"
+  digest = "1:58f3ff2a62378311e3cfdd22c64971c4549a3a14680d3d13ebe0b9fe10a74f22"
   name = "github.com/pilosa/pdk"
   packages = [
     ".",
     "leveldb",
-    "termstat"
+    "termstat",
   ]
-  revision = "3fed8c9e736498edae47a7042516b8cf005131bb"
+  pruneopts = "UT"
+  revision = "ba6522c5be2ff35e8bed44a75ba2468d07a9a0d7"
 
 [[projects]]
   branch = "master"
+  digest = "1:c535844c37ee720d0bc60a10d9044964a2a4356fbb5ee055ab65b990a31ef841"
   name = "github.com/pilosa/pilosa"
   packages = [
     ".",
     "internal",
+    "logger",
     "lru",
     "pql",
-    "roaring"
+    "roaring",
+    "stats",
+    "tracing",
   ]
-  revision = "a04e5c8a9bccb662d88613d5bc8cc279a6190158"
+  pruneopts = "UT"
+  revision = "5b43c9076202c43f5c49fbb542c9b9eded4b2feb"
 
 [[projects]]
+  digest = "1:cf31692c14422fa27c83a05292eb5cbe0fb2775972e8f1f8446a71549bd8980b"
   name = "github.com/pkg/errors"
   packages = ["."]
-  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
-  version = "v0.8.0"
+  pruneopts = "UT"
+  revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
+  version = "v0.8.1"
 
 [[projects]]
+  digest = "1:274f67cb6fed9588ea2521ecdac05a6d62a8c51c074c1fccc6a49a40ba80e925"
   name = "github.com/satori/go.uuid"
   packages = ["."]
+  pruneopts = "UT"
   revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
   version = "v1.2.0"
 
 [[projects]]
+  digest = "1:645cabccbb4fa8aab25a956cbcbdf6a6845ca736b2c64e197ca7cbb9d210b939"
   name = "github.com/spf13/cobra"
   packages = ["."]
+  pruneopts = "UT"
   revision = "ef82de70bb3f60c65fb8eebacbb2d122ef517385"
   version = "v0.0.3"
 
 [[projects]]
+  digest = "1:c1b1102241e7f645bc8e0c22ae352e8f0dc6484b6cb4d132fa9f24174e0119e2"
   name = "github.com/spf13/pflag"
   packages = ["."]
-  revision = "583c0c0531f06d5278b7d917446061adc344b5cd"
-  version = "v1.0.1"
+  pruneopts = "UT"
+  revision = "298182f68c66c05229eb03ac171abe6e309ee79a"
+  version = "v1.0.3"
 
 [[projects]]
-  branch = "master"
+  digest = "1:5b180f17d5bc50b765f4dcf0d126c72979531cbbd7f7929bf3edd87fb801ea2d"
   name = "github.com/syndtr/goleveldb"
   packages = [
     "leveldb",
@@ -138,25 +151,31 @@
     "leveldb/opt",
     "leveldb/storage",
     "leveldb/table",
-    "leveldb/util"
+    "leveldb/util",
   ]
-  revision = "5d6fca44a948d2be89a9702de7717f0168403d3d"
+  pruneopts = "UT"
+  revision = "9d007e481048296f09f59bd19bb7ae584563cd95"
+  version = "v1.0.0"
 
 [[projects]]
   branch = "master"
-  name = "golang.org/x/net"
-  packages = ["context"]
-  revision = "1e491301e022f8f977054da4c2d852decd59571f"
-
-[[projects]]
-  branch = "master"
+  digest = "1:b521f10a2d8fa85c04a8ef4e62f2d1e14d303599a55d64dabf9f5a02f84d35eb"
   name = "golang.org/x/sync"
   packages = ["errgroup"]
-  revision = "1d60e4601c6fd243af51cc01ddf169918a5407ca"
+  pruneopts = "UT"
+  revision = "37e7f081c4d4c64e13b10787722085407fe5d15f"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "bc7f764a0da4d049146f1e612c3706b0b9c132ec35ca26f2853773cacc80c786"
+  input-imports = [
+    "github.com/google/gopacket",
+    "github.com/google/gopacket/layers",
+    "github.com/google/gopacket/pcap",
+    "github.com/jaffee/commandeer/cobrafy",
+    "github.com/pilosa/pdk",
+    "github.com/pilosa/pdk/leveldb",
+    "github.com/pkg/errors",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
